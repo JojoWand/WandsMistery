@@ -1,8 +1,13 @@
 const theme = {
   colors: {
     background: "#111111",
+    background_hover: "#222222",
     text: "#eeeeee",
-    primary: "#4444dc",
+    wandscore: "#74EEFF",
+  },
+  font: {
+    title: "Quicksand",
+    text: "Roboto",
   },
 };
 
