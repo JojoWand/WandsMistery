@@ -7,6 +7,7 @@ export const Home = styled(motion.a)`
   flex-grow: 1;
   font-family: ${props => props.theme.font.title};
   font-size: 24px;
+  padding: 0px 15px;
   align-self: center;
   white-space: nowrap;
   cursor: pointer;

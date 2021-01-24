@@ -13,7 +13,7 @@ const HeaderNav: React.FC<IProps> = props => {
       {props.children}
       <HomeLink />
       <NavButton
-        title="Criação de Personagem"
+        title="Character"
         options={[
           { name: "Passives", route: "/passive" },
           {
@@ -22,20 +22,24 @@ const HeaderNav: React.FC<IProps> = props => {
           },
           { name: "Life", route: "/life" },
           { name: "Stamina", route: "/stamina" },
+          { name: "Conditions", route: "/condition" },
+          { name: "Origin", route: "/origin" },
         ]}
+        route="/character"
       />
-      <NavButton title="Mundo" />
+      <NavButton title="World" route="/world" />
       <NavButton
         title="Crafting"
         options={[
-          { name: "Potions", route: "/potion" },
+          { name: "Potions", route: "/crafting/potion" },
           {
             name: "Spells",
-            route: "/spell",
+            route: "/crafting/spell",
           },
-          { name: "Wands", route: "/wand" },
-          { name: "Brooms", route: "/broom" },
+          { name: "Wands", route: "/crafting/wand" },
+          { name: "Brooms", route: "/crafting/broom" },
         ]}
+        route="/crafting"
       />
     </Navbar>
   );

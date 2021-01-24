@@ -23,10 +23,10 @@ const Home: React.FC = () => {
           sociosqu ad litora torquent per conubia nostra
         </WelcomeCard>
         <NavBar>
-          <NavButton title="Feitiços" />
-          <NavButton title="Poções" />
-          <NavButton title="Vassouras" />
-          <NavButton title="Varinhas" />
+          <NavButton title="Spells" route="/spells" />
+          <NavButton title="Potions" route="/potions" />
+          <NavButton title="Brooms" route="/brooms" />
+          <NavButton title="Wands" route="/wands" />
         </NavBar>
       </Container>
     </>

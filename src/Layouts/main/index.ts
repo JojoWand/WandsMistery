@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -7,5 +8,12 @@ export const Container = styled.div`
   max-width: 680px;
   margin: auto;
   justify-content: space-between;
+  align-items: center;
+`;
+export const Row = styled(motion.div)`
+  display: flex;
+  flex-direction: column;
+  max-width: 680px;
+  margin: auto;
   align-items: center;
 `;

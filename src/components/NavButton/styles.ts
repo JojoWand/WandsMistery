@@ -5,7 +5,7 @@ interface IProps {
   dropdown?: boolean;
 }
 
-export const Container = styled.button<IProps>`
+export const Container = styled(motion.button)<IProps>`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,7 +29,7 @@ export const Container = styled.button<IProps>`
 `;
 
 export const Dropdown = styled(motion.div)`
-  z-index: 1;
+  z-index: 2;
   display: flex;
   flex-direction: column;
   position: absolute;
