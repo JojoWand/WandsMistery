@@ -13,8 +13,8 @@ input, button {
   padding: 2px;
 }
 body, html {
-  background: ${(props) => props.theme.colors.background};
-  color: ${(props) => props.theme.colors.text};
+  background: ${props => props.theme.colors.background};
+  color: ${props => props.theme.colors.text};
   font-family: 300 16px Roboto, sans-serif;
 }
 `;

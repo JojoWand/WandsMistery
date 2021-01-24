@@ -1,11 +1,7 @@
 import { motion } from "framer-motion";
 import styled from "styled-components";
 
-interface IProps {
-  dropdown?: boolean;
-}
-
-export const Container = styled(motion.button)<IProps>`
+export const Container = styled(motion.button)`
   display: flex;
   align-items: center;
   justify-content: center;
